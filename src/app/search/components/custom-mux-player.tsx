@@ -35,6 +35,7 @@ export function CustomMuxPlayerComponent({ playbackId }: Props) {
         loop
         playsInline
         muted={isMuted}
+        loading="viewport"
         streamType="on-demand"
         playbackId={playbackId}
         style={
