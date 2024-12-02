@@ -31,7 +31,8 @@ export function CustomMuxPlayerComponent({ playbackId }: Props) {
       onMouseEnter={() => setActivePlaybackId(playbackId)}
     >
       <MuxPlayer
-        ref={videoRef}
+        // Note: Need to comment this out so it builds
+        // ref={videoRef}
         loop
         playsInline
         muted={isMuted}
