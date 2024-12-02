@@ -2,8 +2,6 @@ import { CustomMuxPlayerComponent } from "./components/custom-mux-player";
 import { CustomMuxVideoComponent } from "./components/custom-mux-video";
 import { MUX_VIDEOS } from "./utils/data";
 
-export const runtime = "edge";
-
 export default function SearchPage() {
   return (
     <div>
